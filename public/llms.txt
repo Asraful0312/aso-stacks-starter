@@ -1,0 +1,54 @@
+# ASOStacks
+
+> ASOStacks is a free App Store Optimization (ASO) tool for iOS and Android app developers. It provides keyword research with difficulty and opportunity scoring, daily rank tracking across 30 countries, competitor keyword spy, app review analysis, and 30-country opportunity scanning — no API keys or app store developer account required.
+
+## Product
+
+- [Home](https://asostacks.com): Landing page with features, pricing, and FAQ
+- [Pricing](https://asostacks.com/#pricing): Free, Pro ($19/mo), and Studio ($49/mo) plans
+- [Dashboard](https://asostacks.com/dashboard): Main app interface (requires sign-in)
+
+## Features
+
+- [Keyword Research](https://asostacks.com/dashboard/keywords): Score keywords across iOS App Store and Google Play in up to 5 countries at once. Returns Popularity, Difficulty, and Opportunity scores.
+- [Keyword Suggest](https://asostacks.com/dashboard/suggest): AI-powered keyword suggestions using store autocomplete signals.
+- [Opportunity Finder](https://asostacks.com/dashboard/opportunity): Scan all 30 App Store markets for a keyword to find the best country to target.
+- [Apps](https://asostacks.com/dashboard/apps): Add and manage apps for rank tracking.
+- [App Report](https://asostacks.com/dashboard/app-report): Full App Store metadata audit including description, screenshots, ratings, and search visibility score.
+- [Rank Monitor](https://asostacks.com/dashboard/rank-monitor): Daily keyword rank snapshots with position history.
+- [Competitor Spy](https://asostacks.com/dashboard/competitor): Analyse a competitor app's keyword footprint.
+- [Review Analysis](https://asostacks.com/dashboard/reviews): Summarise and categorise App Store and Google Play user reviews.
+
+## Plans & Limits
+
+### Free (permanent, no credit card)
+- 10 tracked keywords, 2 tracked apps
+- 20 keyword searches per day
+- 1 opportunity scan per day (covers all 30 countries)
+- 5 app reports per day
+- 5 AI tool runs per day (Keyword Suggest, Competitor Spy, Review Analysis)
+
+### Pro — $19/month (or $15/mo billed yearly)
+- 250 tracked keywords, 25 tracked apps
+- Unlimited keyword research, opportunity scans, app reports, and AI tool runs
+
+### Studio — $49/month (or $39/mo billed yearly)
+- 1,000 tracked keywords, 100 tracked apps
+- Everything in Pro plus priority rank checks and priority support
+
+## Legal & Support
+
+- [Privacy Policy](https://asostacks.com/privacy): Data collection, GDPR rights, cookie policy
+- [Terms of Service](https://asostacks.com/terms): Subscription terms, acceptable use, payment processor (Creem)
+- [Contact](https://asostacks.com/contact): support@asostacks.com
+
+## Comparisons
+
+- [ASOStacks vs ASOMobile](https://asostacks.com/vs/asomobile): Feature and pricing comparison against ASOMobile
+
+## Technical
+
+- Built with Next.js, Convex (backend/database), Clerk (authentication), Cloudflare Workers (hosting)
+- Payment processing by Creem (merchant of record — handles VAT and sales tax)
+- Data sourced from Apple App Store and Google Play Store public APIs
+- No app store developer account connection required
